@@ -7,12 +7,12 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.2.0.M4</version>
-		<relativePath /> <!-- lookup parent from repository -->
+		<relativePath />
 	</parent>
 	<groupId>com.app.rc</groupId>
-	<artifactId>GettingStartedWithSpringBootMicroservices</artifactId>
+	<artifactId>getting-started-with-spring-boot-microservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>gsw-springboot-microservice</name>
+	<name>GettingStartedWithSpringBootMicroservice</name>
 	<description>Getting Started With Spring Cloud and Spring Microservice</description>
 
 	<properties>
@@ -34,6 +34,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
+			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
